@@ -1,0 +1,65 @@
+
+        /* základné kokotiny stránky */
+        body {
+
+            background-color: rgb(216, 147, 147);
+            color: black;
+            text-align: center;
+            font-family: Roboto, Arial, Helvetica, sans-serif
+            
+            }
+
+        a {
+            color:aquamarine;
+            font-weight: bold;
+        }
+s
+       
+        a:hover, 
+        a:active {
+            color:chartreuse;
+        }
+
+        footer a:hover img,
+        footer a:active img {
+            border-color:chartreuse;
+        }
+
+        /* toto sa týka iba artiklov */
+       article {
+        border: 1px solid ;
+        border-color: rgb(39, 43, 46);
+        padding: 50px;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+       } 
+
+       h1, h2, {
+        margin: 0;
+       }
+
+       h3 {
+        margin-top: 30px;
+       }
+
+       h2 {
+        font-size: 20px;
+        margin-top: 10px;
+       }
+
+       h1, strong, em{
+        color: rgb(63, 221, 221);
+       }
+
+       h1{
+        text-transform: uppercase;
+       }
+
+      img{
+        width: 600px;
+        border-radius: 50%;
+        border-radius: 10px;
+        border: solid rgb(192, 92, 25);
+       }
